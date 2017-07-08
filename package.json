@@ -17,12 +17,8 @@
     "aws-sdk": "^2.80.0",
     "axios": "^0.16.2",
     "chai": "^4.0.2",
-    "co": "^4.6.0",
-    "folktale": "^2.0.0-rc1",
-    "lodash": "^4.17.4",
     "mocha": "^3.4.2",
     "nock": "^9.0.13",
-    "ramda": "^0.24.1",
     "webpack": "^3.0.0"
   },
   "devDependencies": {
