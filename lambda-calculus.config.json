@@ -1,4 +1,5 @@
 {
   "FunctionName": "%FunctionName%",
-  "Bucket": "%BucketName%"
+  "Bucket": "%BucketName%",
+  "Environments": %Environments%
 }
