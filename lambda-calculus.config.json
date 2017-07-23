@@ -1,5 +1,10 @@
 {
   "FunctionName": "%FunctionName%",
   "Bucket": "%BucketName%",
-  "Environments": "%Environments%"
+  "Environments": "%Environments%",
+  "tfvars": {
+    "region": "us-east-1",
+    "memory_size": 128,
+    "timeout": 300
+  }
 }
