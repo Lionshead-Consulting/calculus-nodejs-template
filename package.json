@@ -31,6 +31,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.24.1",
     "flow-bin": "^0.49.1",
     "webpack": "^3.0.0",
     "webpack-cleanup-plugin": "^0.5.1"
