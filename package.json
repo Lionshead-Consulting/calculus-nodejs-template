@@ -1,5 +1,5 @@
 {
-  "name": "@lambda/%FunctionName%",
+  "name": "@calculusjs/%FunctionName%",
   "version": "1.0.0",
   "description": "%FunctionName% description...",
   "main": "index.js",
