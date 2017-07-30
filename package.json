@@ -7,7 +7,7 @@
     "build": "./node_modules/.bin/webpack --config webpack.config.js",
     "flow": "flow",
     "test:mocha": "./node_modules/.bin/mocha \"*.spec.js\" --reporter spec --compilers js:babel-core/register",
-    "test:mocha:junit": "NODE_PATH=./ mocha tests/test-helper \"./**/*.spec.js\" --reporter mocha-junit-reporter --reporter-options mochaFile=../../test-results.xml --compilers js:babel-core/register --require babel-polyfill"
+    "test:mocha:junit": "NODE_PATH=./ mocha \"./**/*.spec.js\" --reporter mocha-junit-reporter --reporter-options mochaFile=test-results.xml --compilers js:babel-core/register --require babel-polyfill"
   },
   "author": "",
   "license": "MIT",
