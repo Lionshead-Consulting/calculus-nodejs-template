@@ -1,3 +1,7 @@
+// Register babel so that it will transpile ES6 to ES5
+// before our tests run.
+require('babel-register')();
+
 // Tests are placed alongside files under test.
 // This file does the following:
 // 1. Sets the environment to 'test' so that
@@ -17,10 +21,6 @@ process.env.NODE_ENV = 'test';
 ['.css', '.scss', '.png', '.jpg'].forEach(ext => {
   require.extensions[ext] = () => null;
 });
-
-// Register babel so that it will transpile ES6 to ES5
-// before our tests run.
-require('babel-register')();
 
 var documentRef;
 var exposedProperties = ['window', 'navigator', 'document'];
