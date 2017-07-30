@@ -8,7 +8,6 @@ require('babel-register')();
 //    dev-specific babel config in .babelrc doesn't run.
 // 2. Disables Webpack-specific features that Mocha doesn't understand.
 // 3. Registers babel for transpiling our code for testing.
-import localStorage from 'localStorage';
 
 // This assures the .babelrc dev config (which includes
 // hot module reloading code) doesn't apply for tests.
@@ -26,7 +25,6 @@ var documentRef;
 var exposedProperties = ['window', 'navigator', 'document'];
 
 let win = document.defaultView;
-win.localStorage = localStorage;
 
 global.window = win;
 Object.keys(document.defaultView).forEach((property) => {
