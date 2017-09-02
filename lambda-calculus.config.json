@@ -3,6 +3,7 @@
   "Bucket": "%BucketName%",
   "Environments": "%Environments%",
   "tfvars": {
+    "bucket": "%BucketName%",
     "region": "us-east-1",
     "memory_size": 128,
     "timeout": 300
